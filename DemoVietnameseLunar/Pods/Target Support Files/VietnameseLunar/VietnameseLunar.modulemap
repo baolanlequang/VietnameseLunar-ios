@@ -1,0 +1,6 @@
+framework module VietnameseLunar {
+  umbrella header "VietnameseLunar-umbrella.h"
+
+  export *
+  module * { export * }
+}

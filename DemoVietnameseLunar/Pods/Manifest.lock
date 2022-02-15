@@ -1,0 +1,16 @@
+PODS:
+  - VietnameseLunar (1.0)
+
+DEPENDENCIES:
+  - VietnameseLunar
+
+SPEC REPOS:
+  trunk:
+    - VietnameseLunar
+
+SPEC CHECKSUMS:
+  VietnameseLunar: 1c4fa84175d8962d814fb3014d0e24b001f7f046
+
+PODFILE CHECKSUM: 951088a49d886ce19a433303b1a83b55727b0e36
+
+COCOAPODS: 1.11.2

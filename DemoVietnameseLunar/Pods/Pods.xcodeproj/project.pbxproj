@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A721F91D4C7524B051C8C83312C9948 /* VietnameseLunar.h in Headers */ = {isa = PBXBuildFile; fileRef = 499AB9A889792395AFF6E94C51225C76 /* VietnameseLunar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		254F1405C66F9206D271B55AB25CF9FB /* VietnameseLunar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02FCF865D16CDE3829A689BBD0DCA5A8 /* VietnameseLunar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3533B7A89EC5D8578BB0040B598BB82A /* Pods-DemoVietnameseLunar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4073B46D957C8377428E4B3FFC7A38E5 /* Pods-DemoVietnameseLunar-dummy.m */; };
+		40F295E780F541509915FCD002789E26 /* VietnameseCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF95575A219EDCADE3D7AFF67DABECF /* VietnameseCalendar.swift */; };
+		67463C64DC178652BAB49E5090EAFDF4 /* VietnameseLunar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E6B439D10E5F835AD187F615185EE3 /* VietnameseLunar-dummy.m */; };
+		92A6AC330053CE720C2D0AE8C73B6BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D16723CC02B98A272ABDF434279197DA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE69B89DA1CF5D0A8335DFEE96488C0 /* Constants.swift */; };
+		E23BD60E03B9524A5EEECDBE8C7E557F /* Pods-DemoVietnameseLunar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 621DFBC91031068FF7E06029021AC3B7 /* Pods-DemoVietnameseLunar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0AAA10EC083A21EBFD2C3659DB27D84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A724F4FB9DB98F3FA7F9EAA29B3FC72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5273DDED784DEB6C10AA8D48611BB59F;
+			remoteInfo = VietnameseLunar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FCF865D16CDE3829A689BBD0DCA5A8 /* VietnameseLunar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VietnameseLunar-umbrella.h"; sourceTree = "<group>"; };
+		0627E973A9ABB1B1C709B3786E95EA37 /* Pods-DemoVietnameseLunar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoVietnameseLunar-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F697A584697FAC3D334BFC57A31010E /* Pods-DemoVietnameseLunar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoVietnameseLunar-Info.plist"; sourceTree = "<group>"; };
+		12CFEBF9E658E898697659913AEBF279 /* VietnameseLunar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VietnameseLunar.release.xcconfig; sourceTree = "<group>"; };
+		2621D9210ECC76B04F142ABA2C350E55 /* Pods-DemoVietnameseLunar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoVietnameseLunar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29B618D22FA471BC2E9FFF260F5DEC01 /* VietnameseLunar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VietnameseLunar; path = VietnameseLunar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E6B439D10E5F835AD187F615185EE3 /* VietnameseLunar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VietnameseLunar-dummy.m"; sourceTree = "<group>"; };
+		4073B46D957C8377428E4B3FFC7A38E5 /* Pods-DemoVietnameseLunar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoVietnameseLunar-dummy.m"; sourceTree = "<group>"; };
+		499AB9A889792395AFF6E94C51225C76 /* VietnameseLunar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VietnameseLunar.h; path = VietnameseLunar/VietnameseLunar/VietnameseLunar.h; sourceTree = "<group>"; };
+		621DFBC91031068FF7E06029021AC3B7 /* Pods-DemoVietnameseLunar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoVietnameseLunar-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		730CB8C01F354902D61DCAC8B484616B /* Pods-DemoVietnameseLunar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoVietnameseLunar-frameworks.sh"; sourceTree = "<group>"; };
+		76648F86F1B0EBE137DBB80E3F7BFD47 /* Pods-DemoVietnameseLunar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoVietnameseLunar.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE69B89DA1CF5D0A8335DFEE96488C0 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = VietnameseLunar/VietnameseLunar/Constants.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9E0AF4AFE00363D85D3D1D6B5FBCA5F /* VietnameseLunar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VietnameseLunar-Info.plist"; sourceTree = "<group>"; };
+		AAF95575A219EDCADE3D7AFF67DABECF /* VietnameseCalendar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VietnameseCalendar.swift; path = VietnameseLunar/VietnameseLunar/VietnameseCalendar.swift; sourceTree = "<group>"; };
+		AD4C971FC3C9DBE1C78496304EB28320 /* VietnameseLunar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VietnameseLunar.debug.xcconfig; sourceTree = "<group>"; };
+		C12E3241DB49DF99703490EDE699850F /* VietnameseLunar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VietnameseLunar-prefix.pch"; sourceTree = "<group>"; };
+		C4CA7CA2B667210622289448205DD089 /* VietnameseLunar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VietnameseLunar.modulemap; sourceTree = "<group>"; };
+		C5E43BE132231EA1CF068E44424D9BF5 /* Pods-DemoVietnameseLunar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoVietnameseLunar.release.xcconfig"; sourceTree = "<group>"; };
+		DAC207A478289D768B268E34466F7A52 /* Pods-DemoVietnameseLunar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoVietnameseLunar.modulemap"; sourceTree = "<group>"; };
+		E36F36138124C9F9086DC51CDD82C34E /* Pods-DemoVietnameseLunar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DemoVietnameseLunar"; path = Pods_DemoVietnameseLunar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E763FA6256C9E5AABCA3B48932525330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A6AC330053CE720C2D0AE8C73B6BD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E943A2351817710DCEDCFD94A3D5AE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AAA10EC083A21EBFD2C3659DB27D84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CE8D67AFE7020915EBC3FC79B232FB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F527E918254EF3F8B68F580033B1709F /* VietnameseLunar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		29D02C62B7B39976FD1F32FA8CD7BC8E /* Pods-DemoVietnameseLunar */ = {
+			isa = PBXGroup;
+			children = (
+				DAC207A478289D768B268E34466F7A52 /* Pods-DemoVietnameseLunar.modulemap */,
+				2621D9210ECC76B04F142ABA2C350E55 /* Pods-DemoVietnameseLunar-acknowledgements.markdown */,
+				0627E973A9ABB1B1C709B3786E95EA37 /* Pods-DemoVietnameseLunar-acknowledgements.plist */,
+				4073B46D957C8377428E4B3FFC7A38E5 /* Pods-DemoVietnameseLunar-dummy.m */,
+				730CB8C01F354902D61DCAC8B484616B /* Pods-DemoVietnameseLunar-frameworks.sh */,
+				0F697A584697FAC3D334BFC57A31010E /* Pods-DemoVietnameseLunar-Info.plist */,
+				621DFBC91031068FF7E06029021AC3B7 /* Pods-DemoVietnameseLunar-umbrella.h */,
+				76648F86F1B0EBE137DBB80E3F7BFD47 /* Pods-DemoVietnameseLunar.debug.xcconfig */,
+				C5E43BE132231EA1CF068E44424D9BF5 /* Pods-DemoVietnameseLunar.release.xcconfig */,
+			);
+			name = "Pods-DemoVietnameseLunar";
+			path = "Target Support Files/Pods-DemoVietnameseLunar";
+			sourceTree = "<group>";
+		};
+		4AB48EAD6EFA04D135F41D07AE7C648D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E36F36138124C9F9086DC51CDD82C34E /* Pods-DemoVietnameseLunar */,
+				29B618D22FA471BC2E9FFF260F5DEC01 /* VietnameseLunar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BE1BE0650AFD0368CA1C59E079855C5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA7CA2B667210622289448205DD089 /* VietnameseLunar.modulemap */,
+				35E6B439D10E5F835AD187F615185EE3 /* VietnameseLunar-dummy.m */,
+				A9E0AF4AFE00363D85D3D1D6B5FBCA5F /* VietnameseLunar-Info.plist */,
+				C12E3241DB49DF99703490EDE699850F /* VietnameseLunar-prefix.pch */,
+				02FCF865D16CDE3829A689BBD0DCA5A8 /* VietnameseLunar-umbrella.h */,
+				AD4C971FC3C9DBE1C78496304EB28320 /* VietnameseLunar.debug.xcconfig */,
+				12CFEBF9E658E898697659913AEBF279 /* VietnameseLunar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VietnameseLunar";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1CE8D67AFE7020915EBC3FC79B232FB7 /* Pods */,
+				4AB48EAD6EFA04D135F41D07AE7C648D /* Products */,
+				FCB0E411AF84075527D0922FFED97477 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F527E918254EF3F8B68F580033B1709F /* VietnameseLunar */ = {
+			isa = PBXGroup;
+			children = (
+				8BE69B89DA1CF5D0A8335DFEE96488C0 /* Constants.swift */,
+				AAF95575A219EDCADE3D7AFF67DABECF /* VietnameseCalendar.swift */,
+				499AB9A889792395AFF6E94C51225C76 /* VietnameseLunar.h */,
+				BE1BE0650AFD0368CA1C59E079855C5D /* Support Files */,
+			);
+			name = VietnameseLunar;
+			path = VietnameseLunar;
+			sourceTree = "<group>";
+		};
+		FCB0E411AF84075527D0922FFED97477 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29D02C62B7B39976FD1F32FA8CD7BC8E /* Pods-DemoVietnameseLunar */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ACE128DEB6AF01587724DF3D8B19D40D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A721F91D4C7524B051C8C83312C9948 /* VietnameseLunar.h in Headers */,
+				254F1405C66F9206D271B55AB25CF9FB /* VietnameseLunar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21397C4F2F3A71344634FCCBC2AA7B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23BD60E03B9524A5EEECDBE8C7E557F /* Pods-DemoVietnameseLunar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		245E110509FEA26708C248E9469FB5E3 /* Pods-DemoVietnameseLunar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60CE9FAF0E23032B3783F2DBAB3E9FCA /* Build configuration list for PBXNativeTarget "Pods-DemoVietnameseLunar" */;
+			buildPhases = (
+				D21397C4F2F3A71344634FCCBC2AA7B5 /* Headers */,
+				45CABDE22670D5AF732767B207B4FE53 /* Sources */,
+				E943A2351817710DCEDCFD94A3D5AE4B /* Frameworks */,
+				04BBE0D5DA9F6BCEE5667FAD14415E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A2E93B9D0188C2DF5316BF270F2B1DE /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoVietnameseLunar";
+			productName = Pods_DemoVietnameseLunar;
+			productReference = E36F36138124C9F9086DC51CDD82C34E /* Pods-DemoVietnameseLunar */;
+			productType = "com.apple.product-type.framework";
+		};
+		5273DDED784DEB6C10AA8D48611BB59F /* VietnameseLunar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C13A391DEF4ADC3B2FCAE6FFB4B76E /* Build configuration list for PBXNativeTarget "VietnameseLunar" */;
+			buildPhases = (
+				ACE128DEB6AF01587724DF3D8B19D40D /* Headers */,
+				7E39AE94C1F734D34AC93B28DA593B0B /* Sources */,
+				E763FA6256C9E5AABCA3B48932525330 /* Frameworks */,
+				F5574D706979DAB29E31FF5F5F5B2076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VietnameseLunar;
+			productName = VietnameseLunar;
+			productReference = 29B618D22FA471BC2E9FFF260F5DEC01 /* VietnameseLunar */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4AB48EAD6EFA04D135F41D07AE7C648D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				245E110509FEA26708C248E9469FB5E3 /* Pods-DemoVietnameseLunar */,
+				5273DDED784DEB6C10AA8D48611BB59F /* VietnameseLunar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BBE0D5DA9F6BCEE5667FAD14415E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5574D706979DAB29E31FF5F5F5B2076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45CABDE22670D5AF732767B207B4FE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3533B7A89EC5D8578BB0040B598BB82A /* Pods-DemoVietnameseLunar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E39AE94C1F734D34AC93B28DA593B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D16723CC02B98A272ABDF434279197DA /* Constants.swift in Sources */,
+				40F295E780F541509915FCD002789E26 /* VietnameseCalendar.swift in Sources */,
+				67463C64DC178652BAB49E5090EAFDF4 /* VietnameseLunar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A2E93B9D0188C2DF5316BF270F2B1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VietnameseLunar;
+			target = 5273DDED784DEB6C10AA8D48611BB59F /* VietnameseLunar */;
+			targetProxy = 7A724F4FB9DB98F3FA7F9EAA29B3FC72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05C62A56A15FAD4CB9B2A638EF29B9F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12CFEBF9E658E898697659913AEBF279 /* VietnameseLunar.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VietnameseLunar/VietnameseLunar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VietnameseLunar/VietnameseLunar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VietnameseLunar/VietnameseLunar.modulemap";
+				PRODUCT_MODULE_NAME = VietnameseLunar;
+				PRODUCT_NAME = VietnameseLunar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D7A61514F375BE8D34E707FCB96960F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E43BE132231EA1CF068E44424D9BF5 /* Pods-DemoVietnameseLunar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoVietnameseLunar/Pods-DemoVietnameseLunar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoVietnameseLunar/Pods-DemoVietnameseLunar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		265AECD61AEB736C7A89778D5FB415C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76648F86F1B0EBE137DBB80E3F7BFD47 /* Pods-DemoVietnameseLunar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoVietnameseLunar/Pods-DemoVietnameseLunar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoVietnameseLunar/Pods-DemoVietnameseLunar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92E58B5B8B82DDC84AA0ECC3F99110E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4C971FC3C9DBE1C78496304EB28320 /* VietnameseLunar.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VietnameseLunar/VietnameseLunar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VietnameseLunar/VietnameseLunar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/VietnameseLunar/VietnameseLunar.modulemap";
+				PRODUCT_MODULE_NAME = VietnameseLunar;
+				PRODUCT_NAME = VietnameseLunar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60CE9FAF0E23032B3783F2DBAB3E9FCA /* Build configuration list for PBXNativeTarget "Pods-DemoVietnameseLunar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				265AECD61AEB736C7A89778D5FB415C3 /* Debug */,
+				1D7A61514F375BE8D34E707FCB96960F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C13A391DEF4ADC3B2FCAE6FFB4B76E /* Build configuration list for PBXNativeTarget "VietnameseLunar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92E58B5B8B82DDC84AA0ECC3F99110E7 /* Debug */,
+				05C62A56A15FAD4CB9B2A638EF29B9F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
