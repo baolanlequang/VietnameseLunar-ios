@@ -12,22 +12,41 @@ public class VietnameseCalendar {
     private var solarCalendar: Calendar!
     
     public class VietnameseDate {
-        public var day = ""
-        public var month = ""
+        public var day = 1
+        public var month = 1
         public var year = ""
         public var can = ""
         public var chi = ""
         
-        init(day: String, month: String, year: String, can: String, chi: String) {
+        init(day: Int, month: Int, can: String, chi: String) {
             self.day = day
             self.month = month
-            self.year = year
+            self.year = "\(can) \(chi)"
             self.can = can
             self.chi = chi
         }
         
         public func toString() -> String {
-            return "Ngày \(self.day), tháng \(self.month), năm \(can) \(chi)"
+            var result = ""
+            var strNgay = "Ngày \(day)"
+            if (day < 10) {
+                strNgay = "Mùng \(day)"
+            }
+            var strThang = "tháng \(month)"
+            if (month == 1) {
+                strThang = "tháng Giêng";
+            }
+            else if (month == 12) {
+                strThang = "tháng Chạp";
+            }
+            
+            if (month == 1 && day < 4) {
+                result = "\(strNgay) Tết \(year)"
+            }
+            else {
+                result = "\(strNgay), \(strThang), năm \(year)"
+            }
+            return result
         }
     }
     
@@ -110,7 +129,7 @@ public class VietnameseCalendar {
             break
         }
         
-        self.vietnameseDate = VietnameseDate(day: "\(day)", month: "\(month)", year: "\(year)", can: canStr, chi: chiStr)
+        self.vietnameseDate = VietnameseDate(day: day, month: month, can: canStr, chi: chiStr)
     }
     
     private func convertSolar2LunarDate() -> Date {
@@ -122,11 +141,12 @@ public class VietnameseCalendar {
             monthStart = self.getNewMoonDay(k: k, timeZone: timeZone)
         }
         
+        
         let components: Set = [Calendar.Component.year, Calendar.Component.month, Calendar.Component.day]
         let comps = self.solarCalendar.dateComponents(components, from: self.solarDate)
         let solarYear = comps.year ?? 0
         var lunarYear = 0
-        
+
         var a11 = self.getLunarMonth11(year: solarYear, timeZone: timeZone)
         var b11 = a11
         if (a11 >= monthStart) {
@@ -161,7 +181,7 @@ public class VietnameseCalendar {
         lunarComps.month = lunarMonth
         lunarComps.day = lunarDay
         
-        let result = self.solarCalendar.date(from: lunarComps) ?? Date.now
+        let result = self.solarCalendar.date(from: lunarComps) ?? Date()
         return result
     }
     
@@ -222,7 +242,7 @@ public class VietnameseCalendar {
         DL = DL + (0.019993 - 0.000101*T)*sin(dr*2*M) + 0.000290*sin(dr*3*M);
         var L = L0 + DL // true longitude, degree
         L = L*dr
-        L = L - Double.pi*2*((L/(Double.pi*2))) // Normalize to (0, 2*PI)
+        L = L - Double.pi*2*Double((Int((L/(Double.pi*2))))) // Normalize to (0, 2*PI)
         return Int(floor((L / Double.pi * 6)))
     }
     
@@ -231,7 +251,7 @@ public class VietnameseCalendar {
         comps.day = 31
         comps.month = 12
         comps.year = year
-        let date = self.solarCalendar.date(from: comps) ?? Date.now
+        let date = self.solarCalendar.date(from: comps) ?? Date()
         
         let off = self.jdFromDate(date: date) - 2415021
         let k = Int(floor((Double(off) / 29.530588853)))
