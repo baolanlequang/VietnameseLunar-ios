@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "VietnameseLunar"
-  spec.version      = "1.0"
+  spec.version      = "1.1"
   spec.summary      = "Calculate lunar year in Vietnamese"
   spec.swift_versions   = ['4.0', '5.0', '5.5']
   spec.description  = <<-DESC

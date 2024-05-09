@@ -2,7 +2,7 @@
 //  VietnameseCalendar.swift
 //  VietnameseLunar
 //
-//  Created by Lan Le on 14.02.22.
+//  Updated by Lan Le on 12.05.2024.
 //
 
 import Foundation
@@ -181,6 +181,7 @@ public class VietnameseCalendar {
         lunarComps.month = lunarMonth
         lunarComps.day = lunarDay
         
+        self.solarCalendar.timeZone = TimeZone(identifier: "GMT+7") ?? TimeZone.current
         let result = self.solarCalendar.date(from: lunarComps) ?? Date()
         return result
     }
