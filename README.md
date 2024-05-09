@@ -1,9 +1,13 @@
 # VietnameseLunar
 Library for convert a day to Vietnamese lunar day (Tiếng Việt ở bên dưới)
 
+![GitHub release (release name instead of tag name)](https://img.shields.io/github/v/release/baolanlequang/VietnameseLunar-ios?include_prereleases&label=version)
+
 This library is developed base on Hồ Ngọc Đức's algorithm [https://www.informatik.uni-leipzig.de/~duc/amlich/calrules_en.html](https://www.informatik.uni-leipzig.de/~duc/amlich/calrules_en.html).
 
 If you're using this library, please help me give a thank to Hồ Ngọc Đức.
+
+If you like my works, you can <a href="https://www.buymeacoffee.com/baolanlequang" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 117px !important;" ></a>
 
 ## How to use
 This library is released under MIT license, you are free to use or modify it.
